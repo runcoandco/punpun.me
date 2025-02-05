@@ -157,3 +157,52 @@ button:hover {
 .restrictions-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+/* Responsive Design: Reduce margins and increase element size on mobile */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 95%; /* Increase usable space */
+        padding: 10px; /* Reduce padding for a tighter look */
+        margin: 0 auto; /* Ensure it's centered */
+    }
+
+    h1 {
+        font-size: 24px; /* Increase title size */
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px; /* Adjust subtitle size */
+    }
+
+    p {
+        font-size: 16px; /* Make paragraphs slightly larger */
+        line-height: 1.6;
+    }
+
+    .home-icon {
+        width: 40px; /* Reduce home logo size to fit better */
+    }
+
+    .search-box {
+        width: 100%; /* Make search bar full width */
+        font-size: 18px; /* Increase text size */
+        padding: 12px;
+    }
+
+    .button {
+        font-size: 18px; /* Make buttons bigger */
+        padding: 12px 20px;
+        width: 100%; /* Full-width buttons for easier tapping */
+    }
+
+    .restrictions-table th,
+    .restrictions-table td {
+        font-size: 14px; /* Slightly larger table text */
+        padding: 8px;
+    }
+
+    .large-result {
+        width: 80px; /* Adjust Superman images */
+    }
+}
