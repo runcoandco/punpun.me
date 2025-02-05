@@ -15,6 +15,10 @@
         "status": "yes",
         "reason": "High in omega-3; supports brain health"
     },
+    "apple": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
     "apples": {
         "status": "no",
         "reason": "High in natural sugars"
@@ -119,9 +123,25 @@
         "status": "no",
         "reason": "Processed food; high in unhealthy fats"
     },
+    "sorbet": {
+        "status": "no",
+        "reason": "High in sugar and dairy"
+    },
+    "ice cream": {
+        "status": "no",
+        "reason": "High in sugar and dairy"
+    },
     "chocolate ice cream": {
         "status": "no",
         "reason": "High in sugar and dairy"
+    },
+    "cheese": {
+        "status": "no",
+        "reason": "Contains casein; can be inflammatory"
+    },
+    "chocolate": {
+        "status": "maybe",
+        "reason": "100% Dark. Twice weekly. In moderation."
     },
     "clams": {
         "status": "no",
@@ -198,6 +218,10 @@
     "eggs": {
         "status": "yes",
         "reason": "Rich in choline; supports brain health"
+    },
+    "fig": {
+        "status": "no",
+        "reason": "High in natural sugars"
     },
     "figs": {
         "status": "no",
@@ -323,6 +347,10 @@
         "status": "yes",
         "reason": "Rich in monounsaturated fats"
     },
+    "onion": {
+        "status": "yes",
+        "reason": "Supports gut and brain health"
+    },
     "onions": {
         "status": "yes",
         "reason": "Supports gut and brain health"
@@ -359,6 +387,10 @@
         "status": "no",
         "reason": "High in natural sugars"
     },
+    "peach": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
     "peanut oil": {
         "status": "no",
         "reason": "Highly processed; inflammatory"
@@ -371,9 +403,17 @@
         "status": "no",
         "reason": "High in natural sugars"
     },
+    "plantain": {
+        "status": "no",
+        "reason": "High in natural sugars and starch"
+    },
     "plantains": {
         "status": "no",
         "reason": "High in natural sugars and starch"
+    },
+    "plum": {
+        "status": "no",
+        "reason": "High in natural sugars"
     },
     "plums": {
         "status": "no",
@@ -382,6 +422,14 @@
     "pork": {
         "status": "no",
         "reason": "Processed forms can be inflammatory; high in saturated fats"
+    },
+    "potato": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
+    },    
+    "potatoes": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
     },
     "potatoes (white)": {
         "status": "no",
@@ -395,7 +443,7 @@
         "status": "yes",
         "reason": "Approved in moderation"
     },
-    "radishes": {
+    "radish": {
         "status": "yes",
         "reason": "Rich in nutrients and fiber"
     },
@@ -431,7 +479,7 @@
         "status": "yes",
         "reason": "High in omega-3; supports brain health"
     },
-    "sausages": {
+    "sausage": {
         "status": "no",
         "reason": "Processed meat; high in nitrates and unhealthy fats"
     },
@@ -471,6 +519,10 @@
         "status": "yes",
         "reason": "Preferred natural sweetener"
     },
+    "strawberry": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and fiber"
+    },
     "strawberries": {
         "status": "yes",
         "reason": "Rich in antioxidants and fiber"
@@ -487,6 +539,10 @@
         "status": "no",
         "reason": "High glycemic index; can spike blood sugar"
     },
+    "sweet potato": {
+        "status": "yes",
+        "reason": "Lower glycemic index than white potatoes"
+    },
     "sweet potatoes": {
         "status": "yes",
         "reason": "Lower glycemic index than white potatoes"
@@ -495,6 +551,10 @@
         "status": "yes",
         "reason": "Rich in antioxidants and vitamins"
     },
+    "tangerine": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
     "tangerines": {
         "status": "no",
         "reason": "High in natural sugars"
@@ -502,6 +562,10 @@
     "tilefish": {
         "status": "no",
         "reason": "High in mercury; neurotoxic effects"
+    },
+    "tomato": {
+        "status": "yes",
+        "reason": "Rich in lycopene; supports brain health"
     },
     "tomatoes": {
         "status": "yes",
