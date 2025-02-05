@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Restrictions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Central Home Logo -->
+    <div class="home-logo">
+        <a href="home.html">
+            <img src="bo_logo.png" alt="Home" class="home-icon">
+        </a>
+    </div>
+
+    <div class="container">
+        <h1>All Food Restrictions</h1>
+
+        <h2>🚫 Restricted Foods</h2>
+        <table class="restrictions-table">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody id="restrictedList"></tbody>
+        </table>
+
+        <h2>⚠️ Caution Foods</h2>
+        <table class="restrictions-table">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody id="cautionList"></tbody>
+        </table>
+
+        <h2>✅ Approved Foods</h2>
+        <table class="restrictions-table">
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody id="approvedList"></tbody>
+        </table>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

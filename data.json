@@ -1,0 +1,530 @@
+{
+    "ahi tuna": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "alcohol": {
+        "status": "no",
+        "reason": "Can impair cognitive function and increase inflammation"
+    },
+    "allulose": {
+        "status": "yes",
+        "reason": "Safe alternative to sugar"
+    },
+    "anchovies": {
+        "status": "yes",
+        "reason": "High in omega-3; supports brain health"
+    },
+    "apples": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "asparagus": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and folate"
+    },
+    "aspartame": {
+        "status": "no",
+        "reason": "Artificial sweetener; linked to cognitive impairment"
+    },
+    "avocado": {
+        "status": "yes",
+        "reason": "Rich in healthy fats"
+    },
+    "bacon": {
+        "status": "no",
+        "reason": "Processed meat; high in nitrates and inflammatory compounds"
+    },
+    "bananas": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "beef": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "beets": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "bell peppers": {
+        "status": "yes",
+        "reason": "High in vitamin C and antioxidants"
+    },
+    "bigeye tuna": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "blackberries": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and fiber"
+    },
+    "blueberries": {
+        "status": "yes",
+        "reason": "Rich in antioxidants; supports memory"
+    },
+    "bok choy": {
+        "status": "yes",
+        "reason": "Cruciferous vegetable; supports brain function"
+    },
+    "bread": {
+        "status": "no",
+        "reason": "Contains refined carbs; can spike blood sugar"
+    },
+    "broccoli": {
+        "status": "yes",
+        "reason": "Cruciferous vegetable; supports cognitive health"
+    },
+    "brussels sprouts": {
+        "status": "yes",
+        "reason": "Cruciferous vegetable; rich in fiber"
+    },
+    "butternut squash": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "cabbage": {
+        "status": "yes",
+        "reason": "Cruciferous vegetable; supports detoxification"
+    },
+    "cacao": {
+        "status": "yes",
+        "reason": "Rich in flavonoids; supports brain function"
+    },
+    "carrots": {
+        "status": "no",
+        "reason": "Higher sugar content than other vegetables"
+    },
+    "cauliflower": {
+        "status": "yes",
+        "reason": "Low-carb alternative; nutrient-dense"
+    },
+    "celery": {
+        "status": "yes",
+        "reason": "Rich in antioxidants"
+    },
+    "cereals": {
+        "status": "no",
+        "reason": "Processed grains; high in sugar"
+    },
+    "cherries": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "chickpeas": {
+        "status": "no",
+        "reason": "High in carbs; can spike blood sugar"
+    },
+    "chips": {
+        "status": "no",
+        "reason": "Processed food; high in unhealthy fats"
+    },
+    "chocolate ice cream": {
+        "status": "no",
+        "reason": "High in sugar and dairy"
+    },
+    "clams": {
+        "status": "no",
+        "reason": "Potential heavy metal contamination"
+    },
+    "cocoa powder": {
+        "status": "yes",
+        "reason": "Rich in flavonoids; supports brain function"
+    },
+    "coconut": {
+        "status": "yes",
+        "reason": "Rich in healthy fats"
+    },
+    "coconut milk": {
+        "status": "yes",
+        "reason": "Good dairy-free alternative"
+    },
+    "collard greens": {
+        "status": "yes",
+        "reason": "Rich in folate and vitamin K"
+    },
+    "corn": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
+    },
+    "corn oil": {
+        "status": "no",
+        "reason": "Processed oil; inflammatory"
+    },
+    "cow's cheese": {
+        "status": "no",
+        "reason": "Contains casein; can be inflammatory"
+    },
+    "cow milk": {
+        "status": "no",
+        "reason": "Contains lactose and casein; can cause inflammation"
+    },
+    "cow's milk": {
+        "status": "no",
+        "reason": "Contains lactose and casein; can cause inflammation"
+    },
+    "crab": {
+        "status": "no",
+        "reason": "Potential heavy metal contamination"
+    },
+    "crackers": {
+        "status": "no",
+        "reason": "Processed food; high in refined carbs"
+    },
+    "cucumber": {
+        "status": "yes",
+        "reason": "Hydrating and nutrient-rich"
+    },
+    "dandelion greens": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and prebiotic fiber"
+    },
+    "dark chocolate": {
+        "status": "maybe",
+        "reason": "100% Dark. Twice weekly. In moderation."
+    },
+    "dates": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "eggplant": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "egg": {
+        "status": "yes",
+        "reason": "Rich in choline; supports brain health"
+    },
+    "eggs": {
+        "status": "yes",
+        "reason": "Rich in choline; supports brain health"
+    },
+    "figs": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "fish": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "garlic": {
+        "status": "yes",
+        "reason": "Supports immune and brain health"
+    },
+    "gluten-free bread": {
+        "status": "yes",
+        "reason": "Lower in refined carbs than regular bread"
+    },
+    "goat cheese": {
+        "status": "yes",
+        "reason": "Lower in lactose than cow cheese"
+    },
+    "goat milk": {
+        "status": "yes",
+        "reason": "Lower in casein than cow milk"
+    },
+    "goat yogurt": {
+        "status": "yes",
+        "reason": "Lower in lactose; easier to digest"
+    },
+    "grapes": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "green onions": {
+        "status": "yes",
+        "reason": "Rich in prebiotic fiber"
+    },
+    "grouper": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "herring": {
+        "status": "yes",
+        "reason": "Rich in omega-3; supports brain health"
+    },
+    "instant noodles": {
+        "status": "no",
+        "reason": "Highly processed; lacks nutrients"
+    },
+    "kale": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and vitamin K"
+    },
+    "king mackerel": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "kiwi": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "lamb": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "lamb chops": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "leeks": {
+        "status": "yes",
+        "reason": "Supports cognitive function"
+    },
+    "lemon": {
+        "status": "yes",
+        "reason": "Good for digestion and flavor"
+    },
+    "lentil-based pasta": {
+        "status": "yes",
+        "reason": "Higher fiber and protein than wheat pasta"
+    },
+    "lentils": {
+        "status": "yes",
+        "reason": "Rich in fiber and plant-based protein"
+    },
+    "lime": {
+        "status": "yes",
+        "reason": "Good for digestion and flavor"
+    },
+    "marlin": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "meat": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "melon": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "milk": {
+        "status": "no",
+        "reason": "Contains lactose; can be inflammatory"
+    },
+    "monk fruit": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "mushrooms": {
+        "status": "yes",
+        "reason": "Supports immune and brain health"
+    },
+    "mustard greens": {
+        "status": "yes",
+        "reason": "Rich in antioxidants"
+    },
+    "olive oil": {
+        "status": "yes",
+        "reason": "Preferred healthy fat"
+    },
+    "olives": {
+        "status": "yes",
+        "reason": "Rich in monounsaturated fats"
+    },
+    "onions": {
+        "status": "yes",
+        "reason": "Supports gut and brain health"
+    },
+    "orange roughy": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "oranges": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "oysters": {
+        "status": "no",
+        "reason": "Potential heavy metal contamination"
+    },
+    "pacific mackerel": {
+        "status": "yes",
+        "reason": "Rich in omega-3; supports brain health"
+    },
+    "papaya": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "parsnips": {
+        "status": "no",
+        "reason": "High glycemic index"
+    },
+    "pea-based pasta": {
+        "status": "yes",
+        "reason": "Higher fiber and protein than wheat pasta"
+    },
+    "peaches": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "peanut oil": {
+        "status": "no",
+        "reason": "Highly processed; inflammatory"
+    },
+    "peas": {
+        "status": "no",
+        "reason": "High glycemic index"
+    },
+    "pineapple": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "plantains": {
+        "status": "no",
+        "reason": "High in natural sugars and starch"
+    },
+    "plums": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "pork": {
+        "status": "no",
+        "reason": "Processed forms can be inflammatory; high in saturated fats"
+    },
+    "potatoes (white)": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
+    },
+    "pretzels": {
+        "status": "no",
+        "reason": "Processed food; high in refined carbs"
+    },
+    "pumpkin": {
+        "status": "yes",
+        "reason": "Approved in moderation"
+    },
+    "radishes": {
+        "status": "yes",
+        "reason": "Rich in nutrients and fiber"
+    },
+    "raisins": {
+        "status": "no",
+        "reason": "High in concentrated sugars"
+    },
+    "raspberries": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and fiber"
+    },
+    "red beans": {
+        "status": "no",
+        "reason": "High in carbs; can spike blood sugar"
+    },
+    "red meat": {
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
+    },
+    "saccharin": {
+        "status": "no",
+        "reason": "Artificial sweetener; potential metabolic effects"
+    },
+    "safflower oil": {
+        "status": "no",
+        "reason": "Highly processed; inflammatory"
+    },
+    "salmon": {
+        "status": "yes",
+        "reason": "High in omega-3; supports brain health"
+    },
+    "sardines": {
+        "status": "yes",
+        "reason": "High in omega-3; supports brain health"
+    },
+    "sausages": {
+        "status": "no",
+        "reason": "Processed meat; high in nitrates and unhealthy fats"
+    },
+    "scallions": {
+        "status": "yes",
+        "reason": "Rich in prebiotic fiber"
+    },
+    "sesame oil": {
+        "status": "no",
+        "reason": "High in omega-6; may contribute to inflammation"
+    },
+    "shark": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "sheep cheese": {
+        "status": "yes",
+        "reason": "Easier to digest than cow dairy"
+    },
+    "sheep milk": {
+        "status": "yes",
+        "reason": "Easier to digest than cow dairy"
+    },
+    "sheep yogurt": {
+        "status": "yes",
+        "reason": "Easier to digest than cow dairy"
+    },
+    "shrimp": {
+        "status": "no",
+        "reason": "Potential heavy metal contamination"
+    },
+    "spinach": {
+        "status": "yes",
+        "reason": "Rich in brain-boosting nutrients"
+    },
+    "stevia": {
+        "status": "yes",
+        "reason": "Preferred natural sweetener"
+    },
+    "strawberries": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and fiber"
+    },
+    "sucralose": {
+        "status": "no",
+        "reason": "Artificial sweetener; may disrupt gut microbiome"
+    },
+    "sugar": {
+        "status": "no",
+        "reason": "High glycemic impact; contributes to inflammation"
+    },
+    "sweet corn": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
+    },
+    "sweet potatoes": {
+        "status": "yes",
+        "reason": "Lower glycemic index than white potatoes"
+    },
+    "swiss chard": {
+        "status": "yes",
+        "reason": "Rich in antioxidants and vitamins"
+    },
+    "tangerines": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "tilefish": {
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
+    },
+    "tomatoes": {
+        "status": "yes",
+        "reason": "Rich in lycopene; supports brain health"
+    },
+    "turkey": {
+        "status": "yes",
+        "reason": "Lean protein source"
+    },
+    "watercress": {
+        "status": "yes",
+        "reason": "High in antioxidants and vitamins"
+    },
+    "watermelon": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
+    "wheat": {
+        "status": "no",
+        "reason": "Contains gluten; can be inflammatory"
+    },
+    "zucchini": {
+        "status": "yes",
+        "reason": "Low-carb vegetable; nutrient-dense"
+    }
+}
