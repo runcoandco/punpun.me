@@ -359,6 +359,10 @@
         "status": "no",
         "reason": "High in mercury; neurotoxic effects"
     },
+    "orange": {
+        "status": "no",
+        "reason": "High in natural sugars"
+    },
     "oranges": {
         "status": "no",
         "reason": "High in natural sugars"
