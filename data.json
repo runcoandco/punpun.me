@@ -594,11 +594,11 @@
     "zucchini": {
         "status": "yes",
         "reason": "Low-carb vegetable; nutrient-dense"
-    }
+    },
     "gluten": {
         "status": "no",
         "reason": "Very inflammatory"
-    }
+    },
     "rice": {
         "status": "no",
         "reason": "High glycemic index; can spike blood sugar"
