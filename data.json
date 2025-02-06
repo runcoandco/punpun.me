@@ -16,12 +16,12 @@
         "reason": "High in omega-3; supports brain health"
     },
     "apple": {
-        "status": "no",
-        "reason": "High in natural sugars"
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
     },
     "apples": {
-        "status": "no",
-        "reason": "High in natural sugars"
+        "status": "maybe",
+        "reason": "Once weekly (organic if possible)"
     },
     "asparagus": {
         "status": "yes",
@@ -594,5 +594,13 @@
     "zucchini": {
         "status": "yes",
         "reason": "Low-carb vegetable; nutrient-dense"
+    }
+    "gluten": {
+        "status": "no",
+        "reason": "Very inflammatory"
+    }
+    "rice": {
+        "status": "no",
+        "reason": "High glycemic index; can spike blood sugar"
     }
 }
