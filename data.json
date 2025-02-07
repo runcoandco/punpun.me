@@ -3,6 +3,10 @@
         "status": "no",
         "reason": "High in mercury; neurotoxic effects"
     },
+    "alfarroba": {
+        "status": "yes",
+        "reason": "Chocolate alterante"
+    },
     "alcohol": {
         "status": "no",
         "reason": "Can impair cognitive function and increase inflammation"
@@ -44,8 +48,8 @@
         "reason": "High in natural sugars"
     },
     "beef": {
-        "status": "maybe",
-        "reason": "Once weekly (organic if possible)"
+        "status": "no",
+        "reason": "Not good for the heart"
     },
     "beets": {
         "status": "maybe",
@@ -72,8 +76,8 @@
         "reason": "Cruciferous vegetable; supports brain function"
     },
     "bread": {
-        "status": "no",
-        "reason": "Contains refined carbs; can spike blood sugar"
+        "status": "maybe",
+        "reason": "Only if it is GLUTEN FREE"
     },
     "broccoli": {
         "status": "yes",
@@ -315,9 +319,17 @@
         "status": "no",
         "reason": "High in mercury; neurotoxic effects"
     },
+    "mandarin": {
+        "status": "maybe",
+        "reason": "High in natural sugars"
+    },
+    "mandarins": {
+        "status": "maybe",
+        "reason": "High in natural sugars"
+    },
     "meat": {
         "status": "maybe",
-        "reason": "Once weekly (organic if possible)"
+        "reason": "LAMB is the only meat you can eat"
     },
     "melon": {
         "status": "no",
@@ -408,12 +420,12 @@
         "reason": "High in natural sugars"
     },
     "plantain": {
-        "status": "no",
-        "reason": "High in natural sugars and starch"
+        "status": "maybe",
+        "reason": "Only GREEN PLANTAIN. High in natural sugars and starch"
     },
     "plantains": {
-        "status": "no",
-        "reason": "High in natural sugars and starch"
+        "status": "maybe",
+        "reason": "Only GREEN PLANTAIN. High in natural sugars and starch"
     },
     "plum": {
         "status": "no",
@@ -464,8 +476,8 @@
         "reason": "High in carbs; can spike blood sugar"
     },
     "red meat": {
-        "status": "maybe",
-        "reason": "Once weekly (organic if possible)"
+        "status": "no",
+        "reason": "Not good for the heart"
     },
     "saccharin": {
         "status": "no",
@@ -598,6 +610,26 @@
     "gluten": {
         "status": "no",
         "reason": "Very inflammatory"
+    },
+    "casava": {
+        "status": "yes",
+        "reason": "Carb alternate"
+    },
+    "casabe": {
+        "status": "yes",
+        "reason": "Carb alternate"
+    },
+    "yuca": {
+        "status": "yes",
+        "reason": "Carb alternate"
+    },
+    "pizza": {
+        "status": "maybe",
+        "reason": "Only if it's CASAVA OR CAULIFLOWER"
+    },
+    "gluten-free pizza": {
+        "status": "yes",
+        "reason": "Lower in refined carbs"
     },
     "rice": {
         "status": "no",
