@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else if (foundFood.status === "maybe") {
                         resultImage.src = "superman_maybe.png";
                         resultBox.classList.add("caution");
-                        foodResult.textContent = `You can eat ${foodQuery} in moderation.`;
+                        foodResult.textContent = `Maybe you can eat ${foodQuery} in moderation.`;
                         reason.textContent = foundFood.reason || "Consume in moderation.";
                     } else {
                         resultImage.src = "superman_yes.png";
