@@ -471,6 +471,10 @@
         "status": "yes",
         "reason": "Rich in antioxidants and fiber"
     },
+    "beans": {
+        "status": "no",
+        "reason": "High in carbs; can spike blood sugar"
+    },
     "red beans": {
         "status": "no",
         "reason": "High in carbs; can spike blood sugar"
