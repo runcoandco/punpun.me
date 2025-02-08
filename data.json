@@ -636,6 +636,10 @@
         "reason": "Lower in refined carbs"
     },
     "almond milk": {
+        "status": "yes",
+        "reason": "Milk alternative"
+    },
+    "soy milk": {
         "status": "maybe",
         "reason": "Milk alternative"
     },
