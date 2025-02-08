@@ -156,12 +156,12 @@
         "reason": "Rich in flavonoids; supports brain function"
     },
     "coconut": {
-        "status": "yes",
+        "status": "no",
         "reason": "Rich in healthy fats"
     },
     "coconut milk": {
         "status": "yes",
-        "reason": "Good dairy-free alternative"
+        "reason": "Organic & Unsweetened. Milk alternative"
     },
     "collard greens": {
         "status": "yes",
@@ -641,7 +641,11 @@
     },
     "almond milk": {
         "status": "yes",
-        "reason": "Milk alternative"
+        "reason": "Organic & Unsweetened. Milk alternative"
+    },
+    "oat milk": {
+        "status": "yes",
+        "reason": "Organic & Unsweetened. Milk alternative"
     },
     "soy milk": {
         "status": "maybe",
