@@ -144,8 +144,8 @@
         "reason": "Only if it is GOAT or CHEESE"
     },
     "chia": {
-        "status": "maybe",
-        "reason": "Only if it is GOAT or CHEESE"
+        "status": "yes",
+        "reason": "High in fiber and omega-3s for cognition"
     },
     "chocolate": {
         "status": "maybe",
@@ -277,7 +277,7 @@
     },
     "hemp": {
         "status": "yes",
-        "reason": "Rich in omega-3; supports brain health"
+        "reason": "Rich in omega-3 and protein"
     },
     "herring": {
         "status": "yes",
@@ -441,234 +441,286 @@
     },
     "plum": {
         "status": "no",
-        "reason": "High in natural sugars"
+        "reason": "High in natural sugars."
     },
     "plums": {
         "status": "no",
-        "reason": "High in natural sugars"
+        "reason": "High in natural sugars."
     },
     "pork": {
         "status": "no",
-        "reason": "Processed forms can be inflammatory; high in saturated fats"
+        "reason": "Processed forms can be inflammatory; high in saturated fats."
     },
     "potato": {
         "status": "no",
-        "reason": "High glycemic index; can spike blood sugar"
+        "reason": "High glycemic index; can spike blood sugar."
     },    
     "potatoes": {
         "status": "no",
-        "reason": "High glycemic index; can spike blood sugar"
+        "reason": "High glycemic index; can spike blood sugar."
     },
     "potatoes (white)": {
         "status": "no",
-        "reason": "High glycemic index; can spike blood sugar"
+        "reason": "High glycemic index; can spike blood sugar."
     },
     "pretzels": {
         "status": "no",
-        "reason": "Processed food; high in refined carbs"
+        "reason": "Processed food; high in refined carbs."
     },
     "pumpkin": {
         "status": "yes",
-        "reason": "Approved in moderation"
+        "reason": "Approved in moderation."
     },
     "radish": {
         "status": "yes",
-        "reason": "Rich in nutrients and fiber"
+        "reason": "Rich in nutrients and fiber."
     },
     "raisins": {
         "status": "no",
-        "reason": "High in concentrated sugars"
+        "reason": "High in concentrated sugars."
     },
     "raspberries": {
         "status": "yes",
-        "reason": "Rich in antioxidants and fiber"
+        "reason": "Rich in antioxidants and fiber."
     },
     "beans": {
         "status": "no",
-        "reason": "High in carbs; can spike blood sugar"
+        "reason": "High in carbs; can spike blood sugar."
     },
     "red beans": {
         "status": "no",
-        "reason": "High in carbs; can spike blood sugar"
+        "reason": "High in carbs; can spike blood sugar."
     },
     "red meat": {
         "status": "no",
-        "reason": "Not good for the heart"
+        "reason": "Not good for the heart."
     },
     "saccharin": {
         "status": "no",
-        "reason": "Artificial sweetener; potential metabolic effects"
+        "reason": "Artificial sweetener; potential metabolic effects."
     },
     "sunflower oil": {
         "status": "no",
-        "reason": "Highly processed; inflammatory"
+        "reason": "Highly processed; inflammatory."
     },
     "safflower oil": {
         "status": "no",
-        "reason": "Highly processed; inflammatory"
+        "reason": "Highly processed; inflammatory."
     },
     "salmon": {
         "status": "yes",
-        "reason": "High in omega-3; supports brain health"
+        "reason": "High in omega-3; supports brain health."
     },
     "sardines": {
         "status": "yes",
-        "reason": "High in omega-3; supports brain health"
+        "reason": "High in omega-3; supports brain health."
     },
     "sausage": {
         "status": "no",
-        "reason": "Processed meat; high in nitrates and unhealthy fats"
+        "reason": "Processed meat; high in nitrates and unhealthy fats."
     },
     "scallions": {
         "status": "yes",
-        "reason": "Rich in prebiotic fiber"
+        "reason": "Rich in prebiotic fiber."
     },
     "sesame oil": {
         "status": "no",
-        "reason": "High in omega-6; may contribute to inflammation"
+        "reason": "High in omega-6; may contribute to inflammation."
     },
     "shark": {
         "status": "no",
-        "reason": "High in mercury; neurotoxic effects"
+        "reason": "High in mercury; neurotoxic effects."
     },
     "sheep cheese": {
         "status": "yes",
-        "reason": "Easier to digest than cow dairy"
+        "reason": "Easier to digest than cow dairy."
     },
     "sheep milk": {
         "status": "yes",
-        "reason": "Easier to digest than cow dairy"
+        "reason": "Easier to digest than cow dairy."
     },
     "sheep yogurt": {
         "status": "yes",
-        "reason": "Easier to digest than cow dairy"
+        "reason": "Easier to digest than cow dairy."
     },
     "shrimp": {
         "status": "no",
-        "reason": "Potential heavy metal contamination"
+        "reason": "Potential heavy metal contamination."
     },
     "spinach": {
         "status": "yes",
-        "reason": "Rich in brain-boosting nutrients"
+        "reason": "Rich in brain-boosting nutrients."
     },
     "stevia": {
-        "status": "yes",
-        "reason": "Preferred natural sweetener"
+        "status": "no",
+        "reason": "Artificial sweetener; may disrupt gut microbiome."
     },
     "strawberry": {
         "status": "yes",
-        "reason": "Rich in antioxidants and fiber"
+        "reason": "Rich in antioxidants and fiber."
     },
     "strawberries": {
         "status": "yes",
-        "reason": "Rich in antioxidants and fiber"
+        "reason": "Rich in antioxidants and fiber."
     },
     "sucralose": {
         "status": "no",
-        "reason": "Artificial sweetener; may disrupt gut microbiome"
+        "reason": "Artificial sweetener; may disrupt gut microbiome."
     },
     "sugar": {
         "status": "no",
-        "reason": "High glycemic impact; contributes to inflammation"
+        "reason": "High glycemic impact; contributes to inflammation."
     },
     "sweet corn": {
         "status": "no",
-        "reason": "High glycemic index; can spike blood sugar"
+        "reason": "High glycemic index; can spike blood sugar."
     },
     "sweet potato": {
         "status": "yes",
-        "reason": "Lower glycemic index than white potatoes"
+        "reason": "Lower glycemic index than white potatoes."
     },
     "sweet potatoes": {
         "status": "yes",
-        "reason": "Lower glycemic index than white potatoes"
+        "reason": "Lower glycemic index than white potatoes."
     },
     "swiss chard": {
         "status": "yes",
-        "reason": "Rich in antioxidants and vitamins"
+        "reason": "Rich in antioxidants and vitamins."
     },
     "tangerine": {
         "status": "no",
-        "reason": "High in natural sugars"
+        "reason": "High in natural sugars."
     },
     "tangerines": {
         "status": "no",
-        "reason": "High in natural sugars"
+        "reason": "High in natural sugars."
     },
     "tilefish": {
         "status": "no",
-        "reason": "High in mercury; neurotoxic effects"
+        "reason": "High in mercury; neurotoxic effects."
     },
     "tomato": {
         "status": "yes",
-        "reason": "Rich in lycopene; supports brain health"
+        "reason": "Rich in lycopene; supports brain health."
     },
     "tomatoes": {
         "status": "yes",
-        "reason": "Rich in lycopene; supports brain health"
+        "reason": "Rich in lycopene; supports brain health."
+    },
+    "tomatoes (dried)": {
+        "status": "yes",
+        "reason": "Rich in lycopene; supports cognition."
+    },
+    "dried tomatoes": {
+        "status": "yes",
+        "reason": "Rich in lycopene; supports cognition."
     },
     "turkey": {
         "status": "yes",
-        "reason": "Lean protein source"
+        "reason": "ORGANIC only. Lean protein source."
     },
     "watercress": {
         "status": "yes",
-        "reason": "High in antioxidants and vitamins"
+        "reason": "High in antioxidants and vitamins."
     },
     "watermelon": {
         "status": "no",
-        "reason": "High in natural sugars"
+        "reason": "High in natural sugars."
     },
     "wheat": {
         "status": "no",
-        "reason": "Contains gluten; can be inflammatory"
+        "reason": "Contains gluten; can be inflammator.y"
     },
     "zucchini": {
         "status": "yes",
-        "reason": "Low-carb vegetable; nutrient-dense"
+        "reason": "Low-carb vegetable; nutrient-dense."
     },
     "gluten": {
         "status": "no",
-        "reason": "Very inflammatory"
+        "reason": "Very inflammatory."
     },
     "casava": {
         "status": "yes",
-        "reason": "Carb alternate"
+        "reason": "Supports gut-brain health and provides steady energy."
     },
     "casabe": {
         "status": "yes",
-        "reason": "Carb alternate"
+        "reason": "Supports gut-brain health and provides steady energy."
     },
     "yuca": {
         "status": "yes",
-        "reason": "Carb alternate"
+        "reason": "Supports gut-brain health and provides steady energy."
     },
     "pizza": {
         "status": "maybe",
-        "reason": "Only if it's CASAVA or CAULIFLOWER"
+        "reason": "Only if it's CASAVA or CAULIFLOWER."
     },
     "gluten-free pizza": {
         "status": "yes",
-        "reason": "Lower in refined carbs"
+        "reason": "Lower in refined carbs."
     },
     "almond milk": {
         "status": "yes",
-        "reason": "Organic & Unsweetened. Milk alternative"
+        "reason": "Organic & Unsweetened. Milk alternative."
     },
     "oat milk": {
         "status": "yes",
-        "reason": "Organic & Unsweetened. Milk alternative"
+        "reason": "Organic & Unsweetened. Milk alternative."
+    },
+    "oats": {
+        "status": "maybe",
+        "reason": "Supports gut health and brain function."
     },
     "soy milk": {
         "status": "maybe",
-        "reason": "Better if it is ALMOND. Milk alternative"
+        "reason": "Better if it is ALMOND. Milk alternative."
     },
     "yogurt": {
         "status": "maybe",
-        "reason": "Only if it's SHEEP or GOAT"
+        "reason": "Only if it's SHEEP or GOAT."
+    },
+    "chicken": {
+        "status": "no",
+        "reason": "May contribute to inflammation."
+    },
+    "sauerkraut": {
+        "status": "yes",
+        "reason": "Fermented; supports gut-brain connection."
+    },
+    "rosemary": {
+        "status": "yes",
+        "reason": "Enhances memory and cognitive function."
+    },
+    "chives": {
+        "status": "yes",
+        "reason": "Supports digestion and brain health."
+    },
+    "pollen": {
+        "status": "yes",
+        "reason": "Nutrient-dense; aids memory and immunity."
+    },
+    "oregano": {
+        "status": "yes",
+        "reason": "Antioxidant-rich; supports brain health."
+    },
+    "capers": {
+        "status": "yes",
+        "reason": "High in flavonoids; protects neurons."
+    },
+    "ginger": {
+        "status": "yes",
+        "reason": "Anti-inflammatory; aids brain function."
+    },
+    "turmeric": {
+        "status": "yes",
+        "reason": "Neuroprotective; fights cognitive decline."
+    },
+    "paté": {
+        "status": "yes",
+        "reason": "Nutrient-dense; supports brain and memory."
     },
     "rice": {
         "status": "no",
-        "reason": "High glycemic index; can spike blood sugar"
+        "reason": "High glycemic index; can spike blood sugar."
     }
 }
