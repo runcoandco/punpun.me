@@ -5,7 +5,7 @@
     },
     "alfarroba": {
         "status": "yes",
-        "reason": "Chocolate alterante"
+        "reason": "Chocolate alterantive"
     },
     "alcohol": {
         "status": "no",
@@ -140,8 +140,8 @@
         "reason": "High in sugar and dairy"
     },
     "cheese": {
-        "status": "no",
-        "reason": "Contains casein; can be inflammatory"
+        "status": "maybe",
+        "reason": "Only if it is GOAT or CHEESE"
     },
     "chocolate": {
         "status": "maybe",
@@ -233,7 +233,7 @@
     },
     "fish": {
         "status": "maybe",
-        "reason": "Once weekly (organic if possible)"
+        "reason": "Low mercury content fish"
     },
     "garlic": {
         "status": "yes",
@@ -336,8 +336,8 @@
         "reason": "High in natural sugars"
     },
     "milk": {
-        "status": "no",
-        "reason": "Contains lactose; can be inflammatory"
+        "status": "maybe",
+        "reason": "Only if it's PLANT BASED, SHEEP, or GOAT."
     },
     "monk fruit": {
         "status": "no",
@@ -483,6 +483,10 @@
         "status": "no",
         "reason": "Artificial sweetener; potential metabolic effects"
     },
+    "sunflower oil": {
+        "status": "no",
+        "reason": "Highly processed; inflammatory"
+    },
     "safflower oil": {
         "status": "no",
         "reason": "Highly processed; inflammatory"
@@ -625,11 +629,15 @@
     },
     "pizza": {
         "status": "maybe",
-        "reason": "Only if it's CASAVA OR CAULIFLOWER"
+        "reason": "Only if it's CASAVA or CAULIFLOWER"
     },
     "gluten-free pizza": {
         "status": "yes",
         "reason": "Lower in refined carbs"
+    },
+    "yogurt": {
+        "status": "maybe",
+        "reason": "Only if it's SHEEP or GOAT"
     },
     "rice": {
         "status": "no",
