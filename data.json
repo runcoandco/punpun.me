@@ -143,6 +143,10 @@
         "status": "maybe",
         "reason": "Only if it is GOAT or CHEESE"
     },
+    "chia": {
+        "status": "maybe",
+        "reason": "Only if it is GOAT or CHEESE"
+    },
     "chocolate": {
         "status": "maybe",
         "reason": "100% Dark. Twice weekly. In moderation."
@@ -162,6 +166,10 @@
     "coconut milk": {
         "status": "yes",
         "reason": "Organic & Unsweetened. Milk alternative"
+    },
+    "coffee": {
+        "status": "maybe",
+        "reason": "Only in moderation, and it must be DECAF."
     },
     "collard greens": {
         "status": "yes",
@@ -266,6 +274,10 @@
     "grouper": {
         "status": "no",
         "reason": "High in mercury; neurotoxic effects"
+    },
+    "hemp": {
+        "status": "yes",
+        "reason": "Rich in omega-3; supports brain health"
     },
     "herring": {
         "status": "yes",
@@ -384,8 +396,8 @@
         "reason": "Potential heavy metal contamination"
     },
     "pacific mackerel": {
-        "status": "yes",
-        "reason": "Rich in omega-3; supports brain health"
+        "status": "no",
+        "reason": "High in mercury; neurotoxic effects"
     },
     "papaya": {
         "status": "no",
