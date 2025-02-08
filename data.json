@@ -635,6 +635,10 @@
         "status": "yes",
         "reason": "Lower in refined carbs"
     },
+    "almond milk": {
+        "status": "maybe",
+        "reason": "Milk alternative"
+    },
     "yogurt": {
         "status": "maybe",
         "reason": "Only if it's SHEEP or GOAT"
