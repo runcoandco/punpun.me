@@ -18,6 +18,15 @@ function searchFood() {
     window.location.href = `results.html?food=${encodeURIComponent(query)}`;
 }
 
+// Function to get the singular or plural form of a word
+function getSingularOrPlural(word) {
+    if (word.endsWith("s")) {
+        return word.slice(0, -1); // Convert plural to singular (e.g., eggs → egg)
+    } else {
+        return word + "s"; // Convert singular to plural (e.g., onion → onions)
+    }
+}
+
 // Function to handle search results and display appropriate information
 document.addEventListener("DOMContentLoaded", function () {
     const params = new URLSearchParams(window.location.search);
@@ -27,7 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("data.json")
             .then(response => response.json())
             .then(data => {
-                let foundFood = data[foodQuery];
+                let foundFood = null;
+                const singularOrPlural = getSingularOrPlural(foodQuery);
+
+                for (let key in data) {
+                    if (
+                        key === foodQuery || 
+                        key === singularOrPlural || 
+                        (data[key].synonyms && data[key].synonyms.includes(foodQuery)) ||
+                        (data[key].synonyms && data[key].synonyms.includes(singularOrPlural))
+                    ) {
+                        foundFood = key;
+                        break;
+                    }
+                }
 
                 const resultBox = document.getElementById("resultBox");
                 const resultImage = document.getElementById("resultImage");
@@ -35,21 +57,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 const reason = document.getElementById("reason");
 
                 if (foundFood) {
-                    if (foundFood.status === "no") {
+                    const foodItem = data[foundFood];
+
+                    if (foodItem.status === "no") {
                         resultImage.src = "superman_no.png";
                         resultBox.classList.add("no");
-                        foodResult.textContent = `You cannot eat ${foodQuery}.`;
-                        reason.textContent = foundFood.reason || "No additional information.";
-                    } else if (foundFood.status === "maybe") {
+                        foodResult.textContent = `You cannot eat ${foundFood}.`;
+                        reason.textContent = foodItem.reason || "No additional information.";
+                    } else if (foodItem.status === "maybe") {
                         resultImage.src = "superman_maybe.png";
                         resultBox.classList.add("caution");
-                        foodResult.textContent = `You can eat ${foodQuery} in moderation.`;
-                        reason.textContent = foundFood.reason || "Consume in moderation.";
+                        foodResult.textContent = `You can eat ${foundFood} in moderation.`;
+                        reason.textContent = foodItem.reason || "Consume in moderation.";
                     } else {
                         resultImage.src = "superman_yes.png";
                         resultBox.classList.add("yes");
-                        foodResult.textContent = `You can eat ${foodQuery}.`;
-                        reason.textContent = foundFood.reason || "This food is safe for your diet.";
+                        foodResult.textContent = `You can eat ${foundFood}.`;
+                        reason.textContent = foodItem.reason || "This food is safe for your diet.";
                     }
                 } else {
                     resultImage.src = "superman_error.png";
