@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else if (foundFood.status === "maybe") {
                         resultImage.src = "superman_maybe.png";
                         resultBox.classList.add("caution");
-                        foodResult.textContent = `Maybe you can eat ${foodQuery} in moderation.`;
+                        foodResult.textContent = `You can eat ${foodQuery} in moderation.`;
                         reason.textContent = foundFood.reason || "Consume in moderation.";
                     } else {
                         resultImage.src = "superman_yes.png";
@@ -90,4 +90,15 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .catch(error => console.error("Error loading restrictions:", error));
     }
+
+    // Function to make sections collapsible
+    let collapsibles = document.querySelectorAll(".collapsible");
+
+    collapsibles.forEach(button => {
+        button.addEventListener("click", function () {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            content.classList.toggle("show");
+        });
+    });
 });
