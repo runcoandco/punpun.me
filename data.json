@@ -567,6 +567,14 @@
         "status": "no",
         "reason": "Artificial sweetener; may disrupt gut microbiome."
     },
+    "bubble gum": {
+        "status": "no",
+        "reason": "High glycemic impact; contributes to inflammation."
+    },
+    "gum": {
+        "status": "no",
+        "reason": "High glycemic impact; contributes to inflammation."
+    },
     "sugar": {
         "status": "no",
         "reason": "High glycemic impact; contributes to inflammation."
@@ -588,11 +596,11 @@
         "reason": "Rich in antioxidants and vitamins."
     },
     "tangerine": {
-        "status": "no",
+        "status": "maybe",
         "reason": "High in natural sugars."
     },
     "tangerines": {
-        "status": "no",
+        "status": "maybe",
         "reason": "High in natural sugars."
     },
     "tilefish": {
