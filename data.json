@@ -5,7 +5,7 @@
     },
     "alfarroba": {
         "status": "yes",
-        "reason": "Chocolate alterantive"
+        "reason": "Chocolate alternative"
     },
     "alcohol": {
         "status": "no",
@@ -141,7 +141,7 @@
     },
     "cheese": {
         "status": "maybe",
-        "reason": "Only if it is GOAT or CHEESE"
+        "reason": "Only if it is GOAT or SHEEP"
     },
     "chia": {
         "status": "yes",
@@ -161,7 +161,7 @@
     },
     "coconut": {
         "status": "no",
-        "reason": "Rich in healthy fats"
+        "reason": "High in saturated fats; use coconut milk instead"
     },
     "coconut milk": {
         "status": "yes",
@@ -637,7 +637,7 @@
     },
     "wheat": {
         "status": "no",
-        "reason": "Contains gluten; can be inflammator.y"
+        "reason": "Contains gluten; can be inflammatory"
     },
     "zucchini": {
         "status": "yes",
