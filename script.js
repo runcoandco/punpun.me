@@ -20,7 +20,45 @@ function searchFood() {
 
 // Function to get the singular or plural form of a word
 function getSingularOrPlural(word) {
-    if (word.endsWith("s")) {
+    // Handle irregular plurals and special cases
+    const irregularPlurals = {
+        "cheese": "cheese",  // cheese is both singular and plural in context
+        "sheep": "sheep",
+        "fish": "fish",
+        "deer": "deer",
+        "rice": "rice",
+        "bread": "bread",
+        "meat": "meat",
+        "milk": "milk"
+    };
+
+    // Check if word is in irregular list
+    if (irregularPlurals[word]) {
+        return irregularPlurals[word];
+    }
+
+    // Handle words ending in 'ies' (e.g., berries → berry)
+    if (word.endsWith("ies") && word.length > 3) {
+        return word.slice(0, -3) + "y";
+    }
+
+    // Handle words ending in 'y' (e.g., berry → berries)
+    if (word.endsWith("y") && word.length > 1 && !"aeiou".includes(word[word.length - 2])) {
+        return word.slice(0, -1) + "ies";
+    }
+
+    // Handle words ending in 'es' (e.g., tomatoes → tomato)
+    if (word.endsWith("oes") && word.length > 3) {
+        return word.slice(0, -2);
+    }
+
+    // Handle words ending in 'o' (e.g., tomato → tomatoes)
+    if (word.endsWith("o") && word.length > 1) {
+        return word + "es";
+    }
+
+    // Standard plural/singular conversion
+    if (word.endsWith("s") && word.length > 1) {
         return word.slice(0, -1); // Convert plural to singular (e.g., eggs → egg)
     } else {
         return word + "s"; // Convert singular to plural (e.g., onion → onions)
